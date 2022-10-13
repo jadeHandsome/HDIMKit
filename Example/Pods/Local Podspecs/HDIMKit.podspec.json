@@ -1,0 +1,22 @@
+{
+  "name": "HDIMKit",
+  "version": "0.1.0",
+  "summary": "A short description of HDIMKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/1149769831@qq.com/HDIMKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "1149769831@qq.com": "zenghonglei@itmsoft.com"
+  },
+  "source": {
+    "git": "https://github.com/1149769831@qq.com/HDIMKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "HDIMKit/Classes/**/*"
+}

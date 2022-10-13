@@ -1,0 +1,1063 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07BDF552F9821A8C6040ECDA74FC03BF /* HDIMManager+Friend.h in Headers */ = {isa = PBXBuildFile; fileRef = C61D46519405886565B9F9F71FD36907 /* HDIMManager+Friend.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09C6CA38150DC4E5EBB21141413A5D2D /* HDIMSDKConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 9251C2EFC8E02C35384B0AA73714015D /* HDIMSDKConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C07EE31E70C8CEB90E3548D0CB2BB74 /* HDIMManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9832C0E491B06C6B025CC9D885F71A9A /* HDIMManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DAEF776567B5DC53C1EB5E67CA4793C /* HDIMManager+Message.h in Headers */ = {isa = PBXBuildFile; fileRef = B1CA3B62545A43B9406E2D487D3E8C54 /* HDIMManager+Message.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A99A26F9A041DAABA43647AF8A2C59A /* HDIMFriendInfoResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 7256CAD5EB56BC86F2A3DEB39483DCBF /* HDIMFriendInfoResult.m */; };
+		1BBF5259042965F8E60D784DADFC6168 /* HDIMFriendInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E2442ECB873BF0D2FED9BE8B28C997 /* HDIMFriendInfo.m */; };
+		2F00B355F88BD61E100B0CE5D423B224 /* HDIMGroupMemberInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = DCA325FB7090573C27849207595A8DE9 /* HDIMGroupMemberInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2FA7B8F580FA1D4969EC929775E41616 /* HDIMManager+Group.h in Headers */ = {isa = PBXBuildFile; fileRef = 047F43A17ED6E33108166F088CDE801F /* HDIMManager+Group.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2FF24F592E1057AD2E01D8E94935B7A0 /* HDIMManager+Conversation.h in Headers */ = {isa = PBXBuildFile; fileRef = 06397F2CCEDEDFC4FD9DEF0D84D3BEF4 /* HDIMManager+Conversation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		325D5CB7F5CED413FBDC160431B43D21 /* HDIMGroupMemberOperationResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C8C2DF64C7D9E9ECF111323B3C0A960 /* HDIMGroupMemberOperationResult.m */; };
+		336F0C3DE24ED3AB429C1B98B60FBC5E /* HDIMManager+Group.m in Sources */ = {isa = PBXBuildFile; fileRef = C14AF9B4BB88B194A6A58D01AAA164A0 /* HDIMManager+Group.m */; };
+		3E972D3AF9D5EF561C253EC1E05849E8 /* HDIMMessageSearchParam.m in Sources */ = {isa = PBXBuildFile; fileRef = 372EFB9C700011187D5334C5EBC272A2 /* HDIMMessageSearchParam.m */; };
+		3FD39FFAF11F71F8E189280EFA11FF11 /* HDIMFriendCheckResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 0937F24F8A76163A27A646D26A28F183 /* HDIMFriendCheckResult.m */; };
+		402AD8549CC0898DF36C30DC5893A15A /* HDIMFriendOperationResult.m in Sources */ = {isa = PBXBuildFile; fileRef = FFAFB4F114E18190FDADF84F031437F0 /* HDIMFriendOperationResult.m */; };
+		43CFB34894EE3BB0D8FF5F2CD3D53959 /* HDIMGroupInfoResult.h in Headers */ = {isa = PBXBuildFile; fileRef = DA0FFC26686EAB254939167730B8E796 /* HDIMGroupInfoResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43FC4F447E5953BE53F1577FF0470E6C /* Pods-HDIMKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1885DCEC5B3F9E5AD4359EEBC0B9E86B /* Pods-HDIMKit_Tests-dummy.m */; };
+		468B1D7FCD4D0C4D9403AA4CB1152972 /* HDIMGroupMemberFullInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFB8D2B49649C90486C430563E84B2F /* HDIMGroupMemberFullInfo.m */; };
+		4A6035F947F35FC28D2AB230EFDD8AB8 /* HDIMConversation.h in Headers */ = {isa = PBXBuildFile; fileRef = C731D433466A3C4EE16BCFB1AA157597 /* HDIMConversation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BA8B1E332EECC48F926E71C6738870D /* HDIMSDKUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F5253CA97A6FEA3FF449A9088022F5 /* HDIMSDKUserInfo.m */; };
+		4DF3E0BB68A0E6498F307DBAACE93A61 /* HDIMConversation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D6ACC5AC950F509E5BBCD14E1207A0D /* HDIMConversation.m */; };
+		52DA6D5C58EF39434316931573442163 /* HDIMSDKUserInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 84411F65CD50BEB21BE64AF1622CC3D3 /* HDIMSDKUserInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52FC83FE9B5A32921AF09E9D99D386DF /* Pods-HDIMKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1EC5994FC08E33EC9F3A9FE2523EBF /* Pods-HDIMKit_Example-dummy.m */; };
+		5CB36DC7D2C18745A6EA37F7F6A1163E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		643B9EB545A4B6037A8A5E848687962C /* HDIMSDKUserFullInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 64DBE30F6E66CE02147953764A7A2BC0 /* HDIMSDKUserFullInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65F2F86A84F78EDFBCCA2C3D8BCB2ADE /* HDIMFriendApplicationResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 25B72D4F88E29F0B1F1346F530D5CF63 /* HDIMFriendApplicationResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		672DB61C94091565AE21BE0751B9E9CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		67DAD94D2743C41BAD08421BD611BD00 /* HDIMFriendApplication.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FE0E69B6FD7109490F48A8E5C468C74 /* HDIMFriendApplication.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68E6C7A0D2D24A973DE906752B809F1C /* HDIMFriendInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 23D87627BFAEA1A5869EBC5C6A8CDA71 /* HDIMFriendInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6ABC9127562A4F943A51654A3099C883 /* HDIMMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD6FD5C5CF58A8849B55EDE57F1A902 /* HDIMMessage.m */; };
+		6D6054ECED8CF27D9ED8F17C80E4B0C0 /* HDIMMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 514BE9EDAD36980F057C11AF8EEB807B /* HDIMMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		712F46D18A10D49A65E8411D6F1E9DDA /* HDIMGroupMemberInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE1598C16A0E04015E9AB88FDB1DE67 /* HDIMGroupMemberInfo.m */; };
+		7167975B5D0B5308CBB5E6BBE8E9A0A2 /* HDIMFriendCheckResult.h in Headers */ = {isa = PBXBuildFile; fileRef = EBCE26BA4280EBD7C4CC7AB88A3A5CF9 /* HDIMFriendCheckResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74B8012965D0644F77CFEDB85F0BCC10 /* HDIMManager+Friend.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F7B4284F09E36FFDE10CC3CCCC33B4 /* HDIMManager+Friend.m */; };
+		7518D3CDCA9287B6AA638408119574B7 /* HDIMMessageSearchResultItem.h in Headers */ = {isa = PBXBuildFile; fileRef = A522718E185C338F30E0FF29E54B9D05 /* HDIMMessageSearchResultItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76028995900D2AD8EE6D711B4B1C28A8 /* HDIMKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C96F82F3F07B0BE1B6E3C2479C05219E /* HDIMKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78D3FF1AC34764C37FD16A14AD355035 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7905EEE1696BB573540178E4E60035CB /* HDIMSDKUserFullInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C655EC36B682EDCAE36ED64D27B3B55 /* HDIMSDKUserFullInfo.m */; };
+		815F33DBA0224028D01F02DF07DA2A18 /* HDIMKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E71F2D5486476DD7F798094EC1428C /* HDIMKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		855B6D0758618C15D98ECC1B5FE6915D /* HDIMMessageSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = FB457F94A79ACB5C694FB63A2C48CF8D /* HDIMMessageSearchResult.m */; };
+		8ACFD63EB19C04CA02AB3D7708DE6117 /* HDIMFriendAddApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C78C50349F6259A31C02C3F565269D /* HDIMFriendAddApplication.m */; };
+		9035A5D807B2C7B5C4A74E9FC6B1289E /* V2TIMReceiveMessageOptInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B91A6925CDB2A3F220BC9A54D585A4B /* V2TIMReceiveMessageOptInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9339F956E56809C1268D20B1D9C70364 /* V2TIMReceiveMessageOptInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE3F7730A657077E2065FAB4794ED2C /* V2TIMReceiveMessageOptInfo.m */; };
+		9C2A0F68633AA11A69C30DAC418D1596 /* HDIMFriendApplicationResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA5911E1C7DBF9DBFC7552605AA78C4 /* HDIMFriendApplicationResult.m */; };
+		9D40DAB358DC724C3C59762619A06FCD /* Pods-HDIMKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 15DC9E95E052E39CED85BC909FBCE0CE /* Pods-HDIMKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A320F45B2853C315C60B555EA717CB3A /* HDIMGroupMemberFullInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = E4CFF641AA685E9E09AEC8718DDE867A /* HDIMGroupMemberFullInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6328262FAB2CD234ED38675467E3230 /* HDIMKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E007939A0B643B5BC79951918E4BB62 /* HDIMKit-dummy.m */; };
+		AADC36DDADCD607F32E57983FD8A5D30 /* HDIMCreateGroupMemberInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B1C988317C58BEA7D0EF1386ED6B622 /* HDIMCreateGroupMemberInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEBCB0B5B0F67EE1E63DC4C67A20E933 /* HDIMMessageListGetOption.h in Headers */ = {isa = PBXBuildFile; fileRef = 0085B868C33AC3825228127190195ED5 /* HDIMMessageListGetOption.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B57D6F23D9DEC19DE0C1961D917D6AD4 /* Pods-HDIMKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 66F065296315CA8EDA1FC16D89E69348 /* Pods-HDIMKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9213F0E1CDFD9F82008E2AD9E5AB53A /* HDIMMessageListGetOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C21DF1BBE3035E77C1B7AB5AE01121 /* HDIMMessageListGetOption.m */; };
+		BEFF0BEE4C0EC07F07886EEDF368680E /* HDIMMessageSearchResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E75998BAB11ACEAB6D646E1F7A37919 /* HDIMMessageSearchResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFB7F9923AC32EA1F8A463DE4AC1249C /* HDIMGroupInfoResult.m in Sources */ = {isa = PBXBuildFile; fileRef = F98BDA0573872BCC26F30BD780E6BA81 /* HDIMGroupInfoResult.m */; };
+		D517D3605681892E12DF03319DAF0E40 /* HDIMFriendApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 657DAA91CEEB1EB83C2B72C53DF05D42 /* HDIMFriendApplication.m */; };
+		D5982E0F4656C0EA5BCDD48E7616B2C0 /* HDIMFriendAddApplication.h in Headers */ = {isa = PBXBuildFile; fileRef = 004E4FD02176FC2A8BC34C061D752F2B /* HDIMFriendAddApplication.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0974E7B06C5D36E5C218E2A5FFD8249 /* HDIMGroupInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 8969824E9444432969F94B0C9EAAB681 /* HDIMGroupInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6E617E2A7BC7D0042D09DB44895A284 /* HDIMManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 073733EB91699E5C2CDD44E314C53F2A /* HDIMManager.m */; };
+		E85123609A299EDF7941E90F036D8108 /* HDIMCreateGroupMemberInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 68ACBB44D62003F313877BAD881255DA /* HDIMCreateGroupMemberInfo.m */; };
+		EA1F1E08D13A677DD4F08A4C4973E060 /* HDIMFriendInfoResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E5BF36CB882C7F04492C338ACECD132 /* HDIMFriendInfoResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEB07DCECFF3E736267551C2714FD747 /* HDIMMessageSearchResultItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A8466A9702F89A3CD6A6FEE1916460B0 /* HDIMMessageSearchResultItem.m */; };
+		EF72C63E2DFB1FEF25D2D006793D1E2B /* HDIMGroupInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D415E4690A97A8228A3904074BBBFEA7 /* HDIMGroupInfo.m */; };
+		EFF62B500B70AA54ADB1DA0CC819C40A /* HDIMMessageSearchParam.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A3821E5EC3585E0D52333F305656A73 /* HDIMMessageSearchParam.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F27CFCAF441A2F8A474134DB4DD2BE82 /* HDIMManager+Conversation.m in Sources */ = {isa = PBXBuildFile; fileRef = A01246A3738700F09DDA998205C66373 /* HDIMManager+Conversation.m */; };
+		F3EE0EABC9BF383F8C2CB0A820E3FABD /* HDIMFriendOperationResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 19C2092F33E1155DEBEBE37A2D0DC495 /* HDIMFriendOperationResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4644BA93C86BEA4F6F6FFE985408E36 /* HDIMSDKConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 80BFC6B6972AE06BAAC77C29046FE7A7 /* HDIMSDKConfig.m */; };
+		F94FB4239C89066FB09E08184E4FD0E0 /* HDIMManager+Message.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7DF34762C2C67D72CF8C3375474D57 /* HDIMManager+Message.m */; };
+		FF90BADB086E8B19D9F7DDD7730A10F1 /* HDIMGroupMemberOperationResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FB3A80D3B3F1DC07AA2D940260E4475 /* HDIMGroupMemberOperationResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		73616B912BB17B810239422B1701C9FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2154B07BB3F871ED1F798142BEBA8DD9;
+			remoteInfo = HDIMKit;
+		};
+		7B9954D53A6A7BA18FD47B6815BCE85B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9BA4EC05BE338AD12A52DFE22D9FDDA;
+			remoteInfo = "Pods-HDIMKit_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		004E4FD02176FC2A8BC34C061D752F2B /* HDIMFriendAddApplication.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HDIMFriendAddApplication.h; sourceTree = "<group>"; };
+		0085B868C33AC3825228127190195ED5 /* HDIMMessageListGetOption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HDIMMessageListGetOption.h; sourceTree = "<group>"; };
+		047F43A17ED6E33108166F088CDE801F /* HDIMManager+Group.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HDIMManager+Group.h"; sourceTree = "<group>"; };
+		06397F2CCEDEDFC4FD9DEF0D84D3BEF4 /* HDIMManager+Conversation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HDIMManager+Conversation.h"; sourceTree = "<group>"; };
+		073733EB91699E5C2CDD44E314C53F2A /* HDIMManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HDIMManager.m; sourceTree = "<group>"; };
+		0937F24F8A76163A27A646D26A28F183 /* HDIMFriendCheckResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HDIMFriendCheckResult.m; sourceTree = "<group>"; };
+		105239B990C01AF4C6CB464F76B35462 /* HDIMKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HDIMKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		13A759115954A0438E85C1E4D66FC0F5 /* Pods-HDIMKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HDIMKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		14C78C50349F6259A31C02C3F565269D /* HDIMFriendAddApplication.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HDIMFriendAddApplication.m; sourceTree = "<group>"; };
+		15DC9E95E052E39CED85BC909FBCE0CE /* Pods-HDIMKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HDIMKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		16A87FECEB214D40C8B84C968F19F749 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		1885DCEC5B3F9E5AD4359EEBC0B9E86B /* Pods-HDIMKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HDIMKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		19C2092F33E1155DEBEBE37A2D0DC495 /* HDIMFriendOperationResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HDIMFriendOperationResult.h; sourceTree = "<group>"; };
+		1B1C988317C58BEA7D0EF1386ED6B622 /* HDIMCreateGroupMemberInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HDIMCreateGroupMemberInfo.h; sourceTree = "<group>"; };
+		1BE1598C16A0E04015E9AB88FDB1DE67 /* HDIMGroupMemberInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HDIMGroupMemberInfo.m; sourceTree = "<group>"; };
+		23D87627BFAEA1A5869EBC5C6A8CDA71 /* HDIMFriendInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HDIMFriendInfo.h; sourceTree = "<group>"; };
+		25B72D4F88E29F0B1F1346F530D5CF63 /* HDIMFriendApplicationResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HDIMFriendApplicationResult.h; sourceTree = "<group>"; };
+		287EC818CA8FB4801AA936D3202BE1A7 /* HDIMKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HDIMKit-prefix.pch"; sourceTree = "<group>"; };
+		2B7ED126E024A90C16A32C4D3B86C7CB /* Pods-HDIMKit_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-HDIMKit_Example"; path = Pods_HDIMKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C655EC36B682EDCAE36ED64D27B3B55 /* HDIMSDKUserFullInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HDIMSDKUserFullInfo.m; sourceTree = "<group>"; };
+		2F43412A8C702FC8F56EA6712D2B5E54 /* Pods-HDIMKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HDIMKit_Tests-Info.plist"; sourceTree = "<group>"; };
+		349ADAE4C17E7D164D2CBBAEFA50AF74 /* HDIMKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HDIMKit.release.xcconfig; sourceTree = "<group>"; };
+		357099B0CD9154B5A9D0F15F6E3DE229 /* Pods-HDIMKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HDIMKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		372EFB9C700011187D5334C5EBC272A2 /* HDIMMessageSearchParam.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HDIMMessageSearchParam.m; sourceTree = "<group>"; };
+		37E2442ECB873BF0D2FED9BE8B28C997 /* HDIMFriendInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HDIMFriendInfo.m; sourceTree = "<group>"; };
+		38C0C98C95980310EC90D3FAD505263F /* HDIMKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HDIMKit.debug.xcconfig; sourceTree = "<group>"; };
+		3C8C2DF64C7D9E9ECF111323B3C0A960 /* HDIMGroupMemberOperationResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HDIMGroupMemberOperationResult.m; sourceTree = "<group>"; };
+		3FB3A80D3B3F1DC07AA2D940260E4475 /* HDIMGroupMemberOperationResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HDIMGroupMemberOperationResult.h; sourceTree = "<group>"; };
+		4021D12B236D988D2C91B705CD1A72BD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		40F7B4284F09E36FFDE10CC3CCCC33B4 /* HDIMManager+Friend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HDIMManager+Friend.m"; sourceTree = "<group>"; };
+		41F5253CA97A6FEA3FF449A9088022F5 /* HDIMSDKUserInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HDIMSDKUserInfo.m; sourceTree = "<group>"; };
+		450CB3BE2D479C361F2D157B632D8180 /* Pods-HDIMKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HDIMKit_Example-Info.plist"; sourceTree = "<group>"; };
+		4FE0E69B6FD7109490F48A8E5C468C74 /* HDIMFriendApplication.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HDIMFriendApplication.h; sourceTree = "<group>"; };
+		514BE9EDAD36980F057C11AF8EEB807B /* HDIMMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HDIMMessage.h; sourceTree = "<group>"; };
+		64DBE30F6E66CE02147953764A7A2BC0 /* HDIMSDKUserFullInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HDIMSDKUserFullInfo.h; sourceTree = "<group>"; };
+		657DAA91CEEB1EB83C2B72C53DF05D42 /* HDIMFriendApplication.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HDIMFriendApplication.m; sourceTree = "<group>"; };
+		66F065296315CA8EDA1FC16D89E69348 /* Pods-HDIMKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HDIMKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		68ACBB44D62003F313877BAD881255DA /* HDIMCreateGroupMemberInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HDIMCreateGroupMemberInfo.m; sourceTree = "<group>"; };
+		6A7DF34762C2C67D72CF8C3375474D57 /* HDIMManager+Message.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HDIMManager+Message.m"; sourceTree = "<group>"; };
+		6AA5911E1C7DBF9DBFC7552605AA78C4 /* HDIMFriendApplicationResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HDIMFriendApplicationResult.m; sourceTree = "<group>"; };
+		6B91A6925CDB2A3F220BC9A54D585A4B /* V2TIMReceiveMessageOptInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = V2TIMReceiveMessageOptInfo.h; sourceTree = "<group>"; };
+		6FC2F5E2E50CA996257F76CD208B7447 /* HDIMKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HDIMKit-Info.plist"; sourceTree = "<group>"; };
+		7256CAD5EB56BC86F2A3DEB39483DCBF /* HDIMFriendInfoResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HDIMFriendInfoResult.m; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7439659BB235DF6B68398F6689D56DD0 /* HDIMKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HDIMKit.modulemap; sourceTree = "<group>"; };
+		7CD6FD5C5CF58A8849B55EDE57F1A902 /* HDIMMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HDIMMessage.m; sourceTree = "<group>"; };
+		7D94853E4C7AB322838B52D28E527103 /* Pods-HDIMKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HDIMKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		7E007939A0B643B5BC79951918E4BB62 /* HDIMKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HDIMKit-dummy.m"; sourceTree = "<group>"; };
+		7E5BF36CB882C7F04492C338ACECD132 /* HDIMFriendInfoResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HDIMFriendInfoResult.h; sourceTree = "<group>"; };
+		7E75998BAB11ACEAB6D646E1F7A37919 /* HDIMMessageSearchResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HDIMMessageSearchResult.h; sourceTree = "<group>"; };
+		80BFC6B6972AE06BAAC77C29046FE7A7 /* HDIMSDKConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HDIMSDKConfig.m; sourceTree = "<group>"; };
+		832FC3845284A507A1AE597079F29119 /* HDIMKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HDIMKit; path = HDIMKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84411F65CD50BEB21BE64AF1622CC3D3 /* HDIMSDKUserInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HDIMSDKUserInfo.h; sourceTree = "<group>"; };
+		880144F2AB528030573576D906EB8B97 /* Pods-HDIMKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HDIMKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8969824E9444432969F94B0C9EAAB681 /* HDIMGroupInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HDIMGroupInfo.h; sourceTree = "<group>"; };
+		8A3821E5EC3585E0D52333F305656A73 /* HDIMMessageSearchParam.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HDIMMessageSearchParam.h; sourceTree = "<group>"; };
+		90C21DF1BBE3035E77C1B7AB5AE01121 /* HDIMMessageListGetOption.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HDIMMessageListGetOption.m; sourceTree = "<group>"; };
+		9251C2EFC8E02C35384B0AA73714015D /* HDIMSDKConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HDIMSDKConfig.h; sourceTree = "<group>"; };
+		929743AE3A2737FBD106D2867EBCC9A9 /* Pods-HDIMKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HDIMKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9832C0E491B06C6B025CC9D885F71A9A /* HDIMManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HDIMManager.h; sourceTree = "<group>"; };
+		9D6ACC5AC950F509E5BBCD14E1207A0D /* HDIMConversation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HDIMConversation.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A01246A3738700F09DDA998205C66373 /* HDIMManager+Conversation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HDIMManager+Conversation.m"; sourceTree = "<group>"; };
+		A415544D6117925046B368F188291C12 /* Pods-HDIMKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HDIMKit_Tests.modulemap"; sourceTree = "<group>"; };
+		A522718E185C338F30E0FF29E54B9D05 /* HDIMMessageSearchResultItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HDIMMessageSearchResultItem.h; sourceTree = "<group>"; };
+		A7D336695BC290DCDC26103C2B7C1C5D /* Pods-HDIMKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HDIMKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		A8466A9702F89A3CD6A6FEE1916460B0 /* HDIMMessageSearchResultItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HDIMMessageSearchResultItem.m; sourceTree = "<group>"; };
+		B1CA3B62545A43B9406E2D487D3E8C54 /* HDIMManager+Message.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HDIMManager+Message.h"; sourceTree = "<group>"; };
+		B6E71F2D5486476DD7F798094EC1428C /* HDIMKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HDIMKit.h; sourceTree = "<group>"; };
+		C14AF9B4BB88B194A6A58D01AAA164A0 /* HDIMManager+Group.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HDIMManager+Group.m"; sourceTree = "<group>"; };
+		C61D46519405886565B9F9F71FD36907 /* HDIMManager+Friend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HDIMManager+Friend.h"; sourceTree = "<group>"; };
+		C6B82668936E9948CEBBD8A24178D010 /* Pods-HDIMKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HDIMKit_Example.modulemap"; sourceTree = "<group>"; };
+		C731D433466A3C4EE16BCFB1AA157597 /* HDIMConversation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HDIMConversation.h; sourceTree = "<group>"; };
+		C96F82F3F07B0BE1B6E3C2479C05219E /* HDIMKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HDIMKit-umbrella.h"; sourceTree = "<group>"; };
+		CAE3F7730A657077E2065FAB4794ED2C /* V2TIMReceiveMessageOptInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = V2TIMReceiveMessageOptInfo.m; sourceTree = "<group>"; };
+		CD1EC5994FC08E33EC9F3A9FE2523EBF /* Pods-HDIMKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HDIMKit_Example-dummy.m"; sourceTree = "<group>"; };
+		D415E4690A97A8228A3904074BBBFEA7 /* HDIMGroupInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HDIMGroupInfo.m; sourceTree = "<group>"; };
+		D87E50844E44ED5807F98401A755497C /* Pods-HDIMKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HDIMKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		DA0FFC26686EAB254939167730B8E796 /* HDIMGroupInfoResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HDIMGroupInfoResult.h; sourceTree = "<group>"; };
+		DCA325FB7090573C27849207595A8DE9 /* HDIMGroupMemberInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HDIMGroupMemberInfo.h; sourceTree = "<group>"; };
+		DDFB8D2B49649C90486C430563E84B2F /* HDIMGroupMemberFullInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HDIMGroupMemberFullInfo.m; sourceTree = "<group>"; };
+		E4C05991C6E360E64D36E7AEEB63A93F /* Pods-HDIMKit_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-HDIMKit_Tests"; path = Pods_HDIMKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4CFF641AA685E9E09AEC8718DDE867A /* HDIMGroupMemberFullInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HDIMGroupMemberFullInfo.h; sourceTree = "<group>"; };
+		E9AEE42D08882A5CCD296D578EC27B44 /* Pods-HDIMKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HDIMKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EBCE26BA4280EBD7C4CC7AB88A3A5CF9 /* HDIMFriendCheckResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HDIMFriendCheckResult.h; sourceTree = "<group>"; };
+		F98BDA0573872BCC26F30BD780E6BA81 /* HDIMGroupInfoResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HDIMGroupInfoResult.m; sourceTree = "<group>"; };
+		FB457F94A79ACB5C694FB63A2C48CF8D /* HDIMMessageSearchResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HDIMMessageSearchResult.m; sourceTree = "<group>"; };
+		FC6E113D3D3FBA4EE53033BD4F77FF13 /* Pods-HDIMKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HDIMKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		FFAFB4F114E18190FDADF84F031437F0 /* HDIMFriendOperationResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HDIMFriendOperationResult.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B3EDB0AE5498E0B33080383E707D3D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78D3FF1AC34764C37FD16A14AD355035 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FBB8D715816165A83227BE238081026 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				672DB61C94091565AE21BE0751B9E9CA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC2AB24C9EA539BD4743FAB22F1C9C8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CB36DC7D2C18745A6EA37F7F6A1163E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03433C0C52D03BA028E5370FAF8E2D93 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AE1CBBF792C54F2180E9EE8FC05F757A /* Conversation */,
+				B4D60F12D11656CDF984BC3D70BC6068 /* Friend */,
+				9BD073129B8E39573E1A13901838BBED /* Group */,
+				5E6F83D546EFBFA1EFACF61B93994B89 /* Manager */,
+				E6CEFB0D342EF663A14AF883D3A20995 /* Message */,
+			);
+			name = Models;
+			path = HDIMKit/Classes/Models;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5E6F83D546EFBFA1EFACF61B93994B89 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				E4CFF641AA685E9E09AEC8718DDE867A /* HDIMGroupMemberFullInfo.h */,
+				DDFB8D2B49649C90486C430563E84B2F /* HDIMGroupMemberFullInfo.m */,
+				DCA325FB7090573C27849207595A8DE9 /* HDIMGroupMemberInfo.h */,
+				1BE1598C16A0E04015E9AB88FDB1DE67 /* HDIMGroupMemberInfo.m */,
+				9251C2EFC8E02C35384B0AA73714015D /* HDIMSDKConfig.h */,
+				80BFC6B6972AE06BAAC77C29046FE7A7 /* HDIMSDKConfig.m */,
+				64DBE30F6E66CE02147953764A7A2BC0 /* HDIMSDKUserFullInfo.h */,
+				2C655EC36B682EDCAE36ED64D27B3B55 /* HDIMSDKUserFullInfo.m */,
+				84411F65CD50BEB21BE64AF1622CC3D3 /* HDIMSDKUserInfo.h */,
+				41F5253CA97A6FEA3FF449A9088022F5 /* HDIMSDKUserInfo.m */,
+			);
+			name = Manager;
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		6AAE4D4B111057BA14701D99D12D308C /* Pods-HDIMKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				C6B82668936E9948CEBBD8A24178D010 /* Pods-HDIMKit_Example.modulemap */,
+				E9AEE42D08882A5CCD296D578EC27B44 /* Pods-HDIMKit_Example-acknowledgements.markdown */,
+				A7D336695BC290DCDC26103C2B7C1C5D /* Pods-HDIMKit_Example-acknowledgements.plist */,
+				CD1EC5994FC08E33EC9F3A9FE2523EBF /* Pods-HDIMKit_Example-dummy.m */,
+				7D94853E4C7AB322838B52D28E527103 /* Pods-HDIMKit_Example-frameworks.sh */,
+				450CB3BE2D479C361F2D157B632D8180 /* Pods-HDIMKit_Example-Info.plist */,
+				66F065296315CA8EDA1FC16D89E69348 /* Pods-HDIMKit_Example-umbrella.h */,
+				880144F2AB528030573576D906EB8B97 /* Pods-HDIMKit_Example.debug.xcconfig */,
+				357099B0CD9154B5A9D0F15F6E3DE229 /* Pods-HDIMKit_Example.release.xcconfig */,
+			);
+			name = "Pods-HDIMKit_Example";
+			path = "Target Support Files/Pods-HDIMKit_Example";
+			sourceTree = "<group>";
+		};
+		7639C7A6C053E1E708DCB0F2AF3633F8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6AAE4D4B111057BA14701D99D12D308C /* Pods-HDIMKit_Example */,
+				992E55756F067B35AE490B4CD194A250 /* Pods-HDIMKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		992E55756F067B35AE490B4CD194A250 /* Pods-HDIMKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A415544D6117925046B368F188291C12 /* Pods-HDIMKit_Tests.modulemap */,
+				13A759115954A0438E85C1E4D66FC0F5 /* Pods-HDIMKit_Tests-acknowledgements.markdown */,
+				929743AE3A2737FBD106D2867EBCC9A9 /* Pods-HDIMKit_Tests-acknowledgements.plist */,
+				1885DCEC5B3F9E5AD4359EEBC0B9E86B /* Pods-HDIMKit_Tests-dummy.m */,
+				2F43412A8C702FC8F56EA6712D2B5E54 /* Pods-HDIMKit_Tests-Info.plist */,
+				15DC9E95E052E39CED85BC909FBCE0CE /* Pods-HDIMKit_Tests-umbrella.h */,
+				D87E50844E44ED5807F98401A755497C /* Pods-HDIMKit_Tests.debug.xcconfig */,
+				FC6E113D3D3FBA4EE53033BD4F77FF13 /* Pods-HDIMKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-HDIMKit_Tests";
+			path = "Target Support Files/Pods-HDIMKit_Tests";
+			sourceTree = "<group>";
+		};
+		992EAD2CA72D53AD2B40FF474189DB3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				832FC3845284A507A1AE597079F29119 /* HDIMKit */,
+				2B7ED126E024A90C16A32C4D3B86C7CB /* Pods-HDIMKit_Example */,
+				E4C05991C6E360E64D36E7AEEB63A93F /* Pods-HDIMKit_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BD073129B8E39573E1A13901838BBED /* Group */ = {
+			isa = PBXGroup;
+			children = (
+				1B1C988317C58BEA7D0EF1386ED6B622 /* HDIMCreateGroupMemberInfo.h */,
+				68ACBB44D62003F313877BAD881255DA /* HDIMCreateGroupMemberInfo.m */,
+				8969824E9444432969F94B0C9EAAB681 /* HDIMGroupInfo.h */,
+				D415E4690A97A8228A3904074BBBFEA7 /* HDIMGroupInfo.m */,
+				DA0FFC26686EAB254939167730B8E796 /* HDIMGroupInfoResult.h */,
+				F98BDA0573872BCC26F30BD780E6BA81 /* HDIMGroupInfoResult.m */,
+				3FB3A80D3B3F1DC07AA2D940260E4475 /* HDIMGroupMemberOperationResult.h */,
+				3C8C2DF64C7D9E9ECF111323B3C0A960 /* HDIMGroupMemberOperationResult.m */,
+			);
+			name = Group;
+			path = Group;
+			sourceTree = "<group>";
+		};
+		AE1CBBF792C54F2180E9EE8FC05F757A /* Conversation */ = {
+			isa = PBXGroup;
+			children = (
+				C731D433466A3C4EE16BCFB1AA157597 /* HDIMConversation.h */,
+				9D6ACC5AC950F509E5BBCD14E1207A0D /* HDIMConversation.m */,
+			);
+			name = Conversation;
+			path = Conversation;
+			sourceTree = "<group>";
+		};
+		B4D60F12D11656CDF984BC3D70BC6068 /* Friend */ = {
+			isa = PBXGroup;
+			children = (
+				004E4FD02176FC2A8BC34C061D752F2B /* HDIMFriendAddApplication.h */,
+				14C78C50349F6259A31C02C3F565269D /* HDIMFriendAddApplication.m */,
+				4FE0E69B6FD7109490F48A8E5C468C74 /* HDIMFriendApplication.h */,
+				657DAA91CEEB1EB83C2B72C53DF05D42 /* HDIMFriendApplication.m */,
+				25B72D4F88E29F0B1F1346F530D5CF63 /* HDIMFriendApplicationResult.h */,
+				6AA5911E1C7DBF9DBFC7552605AA78C4 /* HDIMFriendApplicationResult.m */,
+				EBCE26BA4280EBD7C4CC7AB88A3A5CF9 /* HDIMFriendCheckResult.h */,
+				0937F24F8A76163A27A646D26A28F183 /* HDIMFriendCheckResult.m */,
+				23D87627BFAEA1A5869EBC5C6A8CDA71 /* HDIMFriendInfo.h */,
+				37E2442ECB873BF0D2FED9BE8B28C997 /* HDIMFriendInfo.m */,
+				7E5BF36CB882C7F04492C338ACECD132 /* HDIMFriendInfoResult.h */,
+				7256CAD5EB56BC86F2A3DEB39483DCBF /* HDIMFriendInfoResult.m */,
+				19C2092F33E1155DEBEBE37A2D0DC495 /* HDIMFriendOperationResult.h */,
+				FFAFB4F114E18190FDADF84F031437F0 /* HDIMFriendOperationResult.m */,
+			);
+			name = Friend;
+			path = Friend;
+			sourceTree = "<group>";
+		};
+		BAE4D84672128D4A7525E594687F0025 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				105239B990C01AF4C6CB464F76B35462 /* HDIMKit.podspec */,
+				16A87FECEB214D40C8B84C968F19F749 /* LICENSE */,
+				4021D12B236D988D2C91B705CD1A72BD /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C2E9E976D2E2A1071317750FBA4500AB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7439659BB235DF6B68398F6689D56DD0 /* HDIMKit.modulemap */,
+				7E007939A0B643B5BC79951918E4BB62 /* HDIMKit-dummy.m */,
+				6FC2F5E2E50CA996257F76CD208B7447 /* HDIMKit-Info.plist */,
+				287EC818CA8FB4801AA936D3202BE1A7 /* HDIMKit-prefix.pch */,
+				C96F82F3F07B0BE1B6E3C2479C05219E /* HDIMKit-umbrella.h */,
+				38C0C98C95980310EC90D3FAD505263F /* HDIMKit.debug.xcconfig */,
+				349ADAE4C17E7D164D2CBBAEFA50AF74 /* HDIMKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HDIMKit";
+			sourceTree = "<group>";
+		};
+		C4B0AB66F6559129D7CCC33DC469466C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5693479BA37A91CC92DA133A0682739 /* HDIMKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				C4B0AB66F6559129D7CCC33DC469466C /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				992EAD2CA72D53AD2B40FF474189DB3C /* Products */,
+				7639C7A6C053E1E708DCB0F2AF3633F8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E5693479BA37A91CC92DA133A0682739 /* HDIMKit */ = {
+			isa = PBXGroup;
+			children = (
+				03433C0C52D03BA028E5370FAF8E2D93 /* Models */,
+				BAE4D84672128D4A7525E594687F0025 /* Pod */,
+				C2E9E976D2E2A1071317750FBA4500AB /* Support Files */,
+				FAE1D3FA34C9E73BFA32B47442830C3B /* Supports */,
+			);
+			name = HDIMKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		E6CEFB0D342EF663A14AF883D3A20995 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				514BE9EDAD36980F057C11AF8EEB807B /* HDIMMessage.h */,
+				7CD6FD5C5CF58A8849B55EDE57F1A902 /* HDIMMessage.m */,
+				0085B868C33AC3825228127190195ED5 /* HDIMMessageListGetOption.h */,
+				90C21DF1BBE3035E77C1B7AB5AE01121 /* HDIMMessageListGetOption.m */,
+				8A3821E5EC3585E0D52333F305656A73 /* HDIMMessageSearchParam.h */,
+				372EFB9C700011187D5334C5EBC272A2 /* HDIMMessageSearchParam.m */,
+				7E75998BAB11ACEAB6D646E1F7A37919 /* HDIMMessageSearchResult.h */,
+				FB457F94A79ACB5C694FB63A2C48CF8D /* HDIMMessageSearchResult.m */,
+				A522718E185C338F30E0FF29E54B9D05 /* HDIMMessageSearchResultItem.h */,
+				A8466A9702F89A3CD6A6FEE1916460B0 /* HDIMMessageSearchResultItem.m */,
+				6B91A6925CDB2A3F220BC9A54D585A4B /* V2TIMReceiveMessageOptInfo.h */,
+				CAE3F7730A657077E2065FAB4794ED2C /* V2TIMReceiveMessageOptInfo.m */,
+			);
+			name = Message;
+			path = Message;
+			sourceTree = "<group>";
+		};
+		FAE1D3FA34C9E73BFA32B47442830C3B /* Supports */ = {
+			isa = PBXGroup;
+			children = (
+				B6E71F2D5486476DD7F798094EC1428C /* HDIMKit.h */,
+				9832C0E491B06C6B025CC9D885F71A9A /* HDIMManager.h */,
+				073733EB91699E5C2CDD44E314C53F2A /* HDIMManager.m */,
+				06397F2CCEDEDFC4FD9DEF0D84D3BEF4 /* HDIMManager+Conversation.h */,
+				A01246A3738700F09DDA998205C66373 /* HDIMManager+Conversation.m */,
+				C61D46519405886565B9F9F71FD36907 /* HDIMManager+Friend.h */,
+				40F7B4284F09E36FFDE10CC3CCCC33B4 /* HDIMManager+Friend.m */,
+				047F43A17ED6E33108166F088CDE801F /* HDIMManager+Group.h */,
+				C14AF9B4BB88B194A6A58D01AAA164A0 /* HDIMManager+Group.m */,
+				B1CA3B62545A43B9406E2D487D3E8C54 /* HDIMManager+Message.h */,
+				6A7DF34762C2C67D72CF8C3375474D57 /* HDIMManager+Message.m */,
+			);
+			name = Supports;
+			path = HDIMKit/Classes/Supports;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0FD5AAF1677E77052CD9E210A46022C1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B57D6F23D9DEC19DE0C1961D917D6AD4 /* Pods-HDIMKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7789FD7D8CC8BB3A441DB68B4481DFC3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D40DAB358DC724C3C59762619A06FCD /* Pods-HDIMKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A50B8116687F9C56C419EB06EC3C202 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A6035F947F35FC28D2AB230EFDD8AB8 /* HDIMConversation.h in Headers */,
+				AADC36DDADCD607F32E57983FD8A5D30 /* HDIMCreateGroupMemberInfo.h in Headers */,
+				D5982E0F4656C0EA5BCDD48E7616B2C0 /* HDIMFriendAddApplication.h in Headers */,
+				67DAD94D2743C41BAD08421BD611BD00 /* HDIMFriendApplication.h in Headers */,
+				65F2F86A84F78EDFBCCA2C3D8BCB2ADE /* HDIMFriendApplicationResult.h in Headers */,
+				7167975B5D0B5308CBB5E6BBE8E9A0A2 /* HDIMFriendCheckResult.h in Headers */,
+				68E6C7A0D2D24A973DE906752B809F1C /* HDIMFriendInfo.h in Headers */,
+				EA1F1E08D13A677DD4F08A4C4973E060 /* HDIMFriendInfoResult.h in Headers */,
+				F3EE0EABC9BF383F8C2CB0A820E3FABD /* HDIMFriendOperationResult.h in Headers */,
+				E0974E7B06C5D36E5C218E2A5FFD8249 /* HDIMGroupInfo.h in Headers */,
+				43CFB34894EE3BB0D8FF5F2CD3D53959 /* HDIMGroupInfoResult.h in Headers */,
+				A320F45B2853C315C60B555EA717CB3A /* HDIMGroupMemberFullInfo.h in Headers */,
+				2F00B355F88BD61E100B0CE5D423B224 /* HDIMGroupMemberInfo.h in Headers */,
+				FF90BADB086E8B19D9F7DDD7730A10F1 /* HDIMGroupMemberOperationResult.h in Headers */,
+				815F33DBA0224028D01F02DF07DA2A18 /* HDIMKit.h in Headers */,
+				76028995900D2AD8EE6D711B4B1C28A8 /* HDIMKit-umbrella.h in Headers */,
+				0C07EE31E70C8CEB90E3548D0CB2BB74 /* HDIMManager.h in Headers */,
+				2FF24F592E1057AD2E01D8E94935B7A0 /* HDIMManager+Conversation.h in Headers */,
+				07BDF552F9821A8C6040ECDA74FC03BF /* HDIMManager+Friend.h in Headers */,
+				2FA7B8F580FA1D4969EC929775E41616 /* HDIMManager+Group.h in Headers */,
+				0DAEF776567B5DC53C1EB5E67CA4793C /* HDIMManager+Message.h in Headers */,
+				6D6054ECED8CF27D9ED8F17C80E4B0C0 /* HDIMMessage.h in Headers */,
+				AEBCB0B5B0F67EE1E63DC4C67A20E933 /* HDIMMessageListGetOption.h in Headers */,
+				EFF62B500B70AA54ADB1DA0CC819C40A /* HDIMMessageSearchParam.h in Headers */,
+				BEFF0BEE4C0EC07F07886EEDF368680E /* HDIMMessageSearchResult.h in Headers */,
+				7518D3CDCA9287B6AA638408119574B7 /* HDIMMessageSearchResultItem.h in Headers */,
+				09C6CA38150DC4E5EBB21141413A5D2D /* HDIMSDKConfig.h in Headers */,
+				643B9EB545A4B6037A8A5E848687962C /* HDIMSDKUserFullInfo.h in Headers */,
+				52DA6D5C58EF39434316931573442163 /* HDIMSDKUserInfo.h in Headers */,
+				9035A5D807B2C7B5C4A74E9FC6B1289E /* V2TIMReceiveMessageOptInfo.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2154B07BB3F871ED1F798142BEBA8DD9 /* HDIMKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D080EA5FE76B81BB985A1B8AE85CDFDB /* Build configuration list for PBXNativeTarget "HDIMKit" */;
+			buildPhases = (
+				7A50B8116687F9C56C419EB06EC3C202 /* Headers */,
+				1DC09D4AD20B29514DB91F5D3166FFDF /* Sources */,
+				9FBB8D715816165A83227BE238081026 /* Frameworks */,
+				3361BB06C483D7020FA2DB315DBA5F05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HDIMKit;
+			productName = HDIMKit;
+			productReference = 832FC3845284A507A1AE597079F29119 /* HDIMKit */;
+			productType = "com.apple.product-type.framework";
+		};
+		4B52061472D430F1931EF8C88953AEB2 /* Pods-HDIMKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6284404C714761575BC7D495865270A /* Build configuration list for PBXNativeTarget "Pods-HDIMKit_Tests" */;
+			buildPhases = (
+				7789FD7D8CC8BB3A441DB68B4481DFC3 /* Headers */,
+				C7E21756A1571A5488A2536FAE93F6B5 /* Sources */,
+				AC2AB24C9EA539BD4743FAB22F1C9C8F /* Frameworks */,
+				AFC996FD4D05BAF671FCBBDCFB8527A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68C99FE5C253FE2131F1F424B646CB10 /* PBXTargetDependency */,
+			);
+			name = "Pods-HDIMKit_Tests";
+			productName = Pods_HDIMKit_Tests;
+			productReference = E4C05991C6E360E64D36E7AEEB63A93F /* Pods-HDIMKit_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		D9BA4EC05BE338AD12A52DFE22D9FDDA /* Pods-HDIMKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3539FA1C74C6465C6517081C74D1756 /* Build configuration list for PBXNativeTarget "Pods-HDIMKit_Example" */;
+			buildPhases = (
+				0FD5AAF1677E77052CD9E210A46022C1 /* Headers */,
+				5C03DFDD48277CAAE4581F238D9AA47E /* Sources */,
+				9B3EDB0AE5498E0B33080383E707D3D9 /* Frameworks */,
+				64BA02DE1AFF662B3A28B8F193F5D9DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EC159758B2C4B113C359F65FA3E70E8 /* PBXTargetDependency */,
+			);
+			name = "Pods-HDIMKit_Example";
+			productName = Pods_HDIMKit_Example;
+			productReference = 2B7ED126E024A90C16A32C4D3B86C7CB /* Pods-HDIMKit_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 992EAD2CA72D53AD2B40FF474189DB3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2154B07BB3F871ED1F798142BEBA8DD9 /* HDIMKit */,
+				D9BA4EC05BE338AD12A52DFE22D9FDDA /* Pods-HDIMKit_Example */,
+				4B52061472D430F1931EF8C88953AEB2 /* Pods-HDIMKit_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3361BB06C483D7020FA2DB315DBA5F05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64BA02DE1AFF662B3A28B8F193F5D9DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFC996FD4D05BAF671FCBBDCFB8527A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DC09D4AD20B29514DB91F5D3166FFDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DF3E0BB68A0E6498F307DBAACE93A61 /* HDIMConversation.m in Sources */,
+				E85123609A299EDF7941E90F036D8108 /* HDIMCreateGroupMemberInfo.m in Sources */,
+				8ACFD63EB19C04CA02AB3D7708DE6117 /* HDIMFriendAddApplication.m in Sources */,
+				D517D3605681892E12DF03319DAF0E40 /* HDIMFriendApplication.m in Sources */,
+				9C2A0F68633AA11A69C30DAC418D1596 /* HDIMFriendApplicationResult.m in Sources */,
+				3FD39FFAF11F71F8E189280EFA11FF11 /* HDIMFriendCheckResult.m in Sources */,
+				1BBF5259042965F8E60D784DADFC6168 /* HDIMFriendInfo.m in Sources */,
+				1A99A26F9A041DAABA43647AF8A2C59A /* HDIMFriendInfoResult.m in Sources */,
+				402AD8549CC0898DF36C30DC5893A15A /* HDIMFriendOperationResult.m in Sources */,
+				EF72C63E2DFB1FEF25D2D006793D1E2B /* HDIMGroupInfo.m in Sources */,
+				BFB7F9923AC32EA1F8A463DE4AC1249C /* HDIMGroupInfoResult.m in Sources */,
+				468B1D7FCD4D0C4D9403AA4CB1152972 /* HDIMGroupMemberFullInfo.m in Sources */,
+				712F46D18A10D49A65E8411D6F1E9DDA /* HDIMGroupMemberInfo.m in Sources */,
+				325D5CB7F5CED413FBDC160431B43D21 /* HDIMGroupMemberOperationResult.m in Sources */,
+				A6328262FAB2CD234ED38675467E3230 /* HDIMKit-dummy.m in Sources */,
+				E6E617E2A7BC7D0042D09DB44895A284 /* HDIMManager.m in Sources */,
+				F27CFCAF441A2F8A474134DB4DD2BE82 /* HDIMManager+Conversation.m in Sources */,
+				74B8012965D0644F77CFEDB85F0BCC10 /* HDIMManager+Friend.m in Sources */,
+				336F0C3DE24ED3AB429C1B98B60FBC5E /* HDIMManager+Group.m in Sources */,
+				F94FB4239C89066FB09E08184E4FD0E0 /* HDIMManager+Message.m in Sources */,
+				6ABC9127562A4F943A51654A3099C883 /* HDIMMessage.m in Sources */,
+				B9213F0E1CDFD9F82008E2AD9E5AB53A /* HDIMMessageListGetOption.m in Sources */,
+				3E972D3AF9D5EF561C253EC1E05849E8 /* HDIMMessageSearchParam.m in Sources */,
+				855B6D0758618C15D98ECC1B5FE6915D /* HDIMMessageSearchResult.m in Sources */,
+				EEB07DCECFF3E736267551C2714FD747 /* HDIMMessageSearchResultItem.m in Sources */,
+				F4644BA93C86BEA4F6F6FFE985408E36 /* HDIMSDKConfig.m in Sources */,
+				7905EEE1696BB573540178E4E60035CB /* HDIMSDKUserFullInfo.m in Sources */,
+				4BA8B1E332EECC48F926E71C6738870D /* HDIMSDKUserInfo.m in Sources */,
+				9339F956E56809C1268D20B1D9C70364 /* V2TIMReceiveMessageOptInfo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C03DFDD48277CAAE4581F238D9AA47E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52FC83FE9B5A32921AF09E9D99D386DF /* Pods-HDIMKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7E21756A1571A5488A2536FAE93F6B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43FC4F447E5953BE53F1577FF0470E6C /* Pods-HDIMKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1EC159758B2C4B113C359F65FA3E70E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HDIMKit;
+			target = 2154B07BB3F871ED1F798142BEBA8DD9 /* HDIMKit */;
+			targetProxy = 73616B912BB17B810239422B1701C9FA /* PBXContainerItemProxy */;
+		};
+		68C99FE5C253FE2131F1F424B646CB10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HDIMKit_Example";
+			target = D9BA4EC05BE338AD12A52DFE22D9FDDA /* Pods-HDIMKit_Example */;
+			targetProxy = 7B9954D53A6A7BA18FD47B6815BCE85B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05E5DDFC99072E7C4B12C44960CF1DAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38C0C98C95980310EC90D3FAD505263F /* HDIMKit.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HDIMKit/HDIMKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HDIMKit/HDIMKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HDIMKit/HDIMKit.modulemap";
+				PRODUCT_MODULE_NAME = HDIMKit;
+				PRODUCT_NAME = HDIMKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0D02B653401ABD14B11BA93DDDA3CD79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 880144F2AB528030573576D906EB8B97 /* Pods-HDIMKit_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HDIMKit_Example/Pods-HDIMKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HDIMKit_Example/Pods-HDIMKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7BE8BF95B8D25B951E8941F56FEEBF2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 349ADAE4C17E7D164D2CBBAEFA50AF74 /* HDIMKit.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HDIMKit/HDIMKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HDIMKit/HDIMKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HDIMKit/HDIMKit.modulemap";
+				PRODUCT_MODULE_NAME = HDIMKit;
+				PRODUCT_NAME = HDIMKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8DFCCADE58A4DF39EA327D702A0867D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D87E50844E44ED5807F98401A755497C /* Pods-HDIMKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HDIMKit_Tests/Pods-HDIMKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HDIMKit_Tests/Pods-HDIMKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B437B68F884C853BEA471B952FDD5FCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 357099B0CD9154B5A9D0F15F6E3DE229 /* Pods-HDIMKit_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HDIMKit_Example/Pods-HDIMKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HDIMKit_Example/Pods-HDIMKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D7CFC8D79CC0A888B3CCBC410DEFA425 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC6E113D3D3FBA4EE53033BD4F77FF13 /* Pods-HDIMKit_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HDIMKit_Tests/Pods-HDIMKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HDIMKit_Tests/Pods-HDIMKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D080EA5FE76B81BB985A1B8AE85CDFDB /* Build configuration list for PBXNativeTarget "HDIMKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05E5DDFC99072E7C4B12C44960CF1DAA /* Debug */,
+				7BE8BF95B8D25B951E8941F56FEEBF2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3539FA1C74C6465C6517081C74D1756 /* Build configuration list for PBXNativeTarget "Pods-HDIMKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D02B653401ABD14B11BA93DDDA3CD79 /* Debug */,
+				B437B68F884C853BEA471B952FDD5FCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6284404C714761575BC7D495865270A /* Build configuration list for PBXNativeTarget "Pods-HDIMKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DFCCADE58A4DF39EA327D702A0867D4 /* Debug */,
+				D7CFC8D79CC0A888B3CCBC410DEFA425 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module HDIMKit {
+  umbrella header "HDIMKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

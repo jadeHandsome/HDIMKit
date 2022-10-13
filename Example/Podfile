@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'HDIMKit_Example' do
+  pod 'HDIMKit', :path => '../'
+
+  target 'HDIMKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
